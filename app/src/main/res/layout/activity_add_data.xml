@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/ActivityBasicLayout"
+    tools:context="com.example.sqliteexample.AddDataActivity">
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/nameInputView"
+        style="@style/InputTextView"
+        android:hint="Name" />
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/phoneInputView"
+        style="@style/InputTextView"
+        android:hint="Phone" />
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/homeInputView"
+        style="@style/InputTextView"
+        android:hint="home" />
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/officeInputView"
+        style="@style/InputTextView"
+        android:hint="office" />
+</LinearLayout>
